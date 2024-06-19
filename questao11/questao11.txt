@@ -1,2 +1,18 @@
-A estratégia de busca mais eficiente seria a busca binária, a busca binária é eficiente porque ela reduz o
-espaço de busca pela metade a cada iteração, tornando-a muito mais rápida que a busca linear.
+Para buscar dados em arquivos que são armazenados de forma ordenada, a estratégia de busca mais eficiente é a Busca Binária, pois ela reduz o espaço
+de busca, tornando-se muito mais rápida do que a busca linear.
+
+- Eficiência:
+
+    - A busca binária tem uma complexidade de tempo de O(log n), onde n é o número de elementos na coleção. Isso é significativamente mais rápido
+    do que a busca linear, que tem uma complexidade de O(n).
+
+- Ordenação dos Dados:
+
+    - A busca binária exige que os dados estejam ordenados. Dado que os arquivos na aplicação são armazenados de forma ordenada, a busca binária
+    é perfeitamente aplicável.
+
+
+- Redução de Comparações:
+
+    - Em vez de comparar cada elemento sequencialmente, a busca binária faz no máximo log n comparações, o que é muito menor em grandes
+    conjuntos de dados.
