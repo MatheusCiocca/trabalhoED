@@ -1,0 +1,1 @@
+ A recursão é intuitiva para essa definição e o código é simples e fácil de entender, a implementação recursiva pode ser uma boa alternativa quando a própria definição do problema se adapta naturalmente a uma solução recursiva, entretanto em algumas situações, a implementação iterativa pode ser mais eficiente ou de mais fácil entendimento.

@@ -1,6 +1,6 @@
 package questao9;
 
-public class Mian {
+public class Main {
     public static void main(String[] args) {
         int[] vetor1 = {7,1,1,3,2};
 
