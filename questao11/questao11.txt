@@ -1,1 +1,2 @@
-A estratégia de busca mais eficiente seria a busca binária, a busca binária é eficiente porque ela reduz o espaço de busca pela metade a cada iteração, tornando-a muito mais rápida que a busca linear.
+A estratégia de busca mais eficiente seria a busca binária, a busca binária é eficiente porque ela reduz o
+espaço de busca pela metade a cada iteração, tornando-a muito mais rápida que a busca linear.

@@ -1,1 +1,11 @@
-Para implementar um sistema de locação de veículos com listas duplamente encadeadas em memória, organizadas em três categorias para clientes, veículos e locações, é crucial manter a integridade dos dados, impedindo a exclusão de clientes ou veículos enquanto estiverem associados a uma locação ativa. Existem várias estratégias para alcançar isso: uma abordagem comum é utilizar contadores de referência para cada cliente e veículo, os quais indicam quantas locações estão vinculadas a eles; antes de excluir um cliente ou veículo, o sistema verifica se o contador é maior que zero para evitar a exclusão prematura. Outra estratégia envolve iterar pela lista de locações para verificar diretamente a existência de locações ativas antes da exclusão. Alternativamente, pode-se manter listas de locações diretamente nos objetos Cliente e Veículo, facilitando a verificação da presença de locações ativas antes de permitir a exclusão. A escolha da estratégia depende das necessidades específicas do sistema e das características da implementação das listas duplamente encadeadas.
+Para implementar um sistema de locação de veículos com listas duplamente encadeadas em memória, organizadas em três categorias
+para clientes, veículos e locações, é crucial manter a integridade dos dados, impedindo a exclusão de clientes ou veículos
+enquanto estiverem associados a uma locação ativa. Existem várias estratégias para alcançar isso:
+
+    - Uma abordagem comum é utilizar contadores de referência para cada cliente e veículo, os quais indicam quantas locações estão vinculadas a eles;
+    antes de excluir um cliente ou veículo, o sistema verifica se o contador é maior que zero para evitar a exclusão indevida.
+    - Outra estratégia envolve iterar pela lista de locações para verificar diretamente a existência de locações ativas antes da exclusão.
+    - Alternativamente, pode-se manter listas de locações diretamente nos objetos Cliente e Veículo, facilitando a verificação
+    da presença de locações ativas antes de permitir a exclusão.
+    
+A escolha da estratégia depende das necessidades específicas do sistema e das características da implementação das listas duplamente encadeadas.
