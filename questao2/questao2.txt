@@ -1,0 +1,16 @@
+Análise de Complexidade
+
+- Complexidade de Tempo:
+
+    - O algoritmo realiza n-1 passagens pelo vetor, e cada passagem requer a comparação de até i elementos.
+    - No pior caso, o número total de comparações é O(n^2), pois para cada um dos n elementos fazemos até n-1 comparações.
+
+
+- Complexidade de Espaço:
+
+    - O algoritmo utiliza apenas uma quantidade constante de espaço adicional (O(1)), pois a ordenação é feita in-place,
+    isto é, dentro do próprio vetor de entrada.
+
+
+Portanto, a classe de complexidade de tempo é O(n^2) no pior caso e no caso médio, e a complexidade de espaço é O(1).
+Este algoritmo é eficiente em termos de espaço, mas não é o mais eficiente em termos de tempo para vetores de grandes dimensões.

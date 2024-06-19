@@ -1,0 +1,16 @@
+Complexidade para o Pior Caso
+
+- Complexidade de Tempo:
+
+    - A inserção em uma lista duplamente encadeada ordenada envolve percorrer a lista até o ponto de inserção, o que leva
+    tempo proporcional ao número de elementos na lista.
+    - No pior caso, quando o novo elemento deve ser inserido no meio da lista, a complexidade de tempo é O(n), onde n é o número
+    de elementos na lista.
+
+- Espaço:
+
+    - A complexidade de espaço é O(1) para a inserção, pois estamos apenas criando um novo nó.
+    
+
+Portanto, o método add_ordenado tem uma complexidade de tempo O(n) no pior caso, onde n é o número de elementos na lista.
+Isso ocorre quando o novo elemento precisa ser inserido no meio da lista existente.

@@ -1,0 +1,12 @@
+Análise de Complexidade para o Pior Caso
+
+- Complexidade de Tempo:
+
+    - Ordenar cada vetor usando ordenação por seleção leva O(n^2) para cada vetor.
+    - A iteração para encontrar a interseção leva O(n + m) onde n e m são os tamanhos dos vetores.
+    - No pior caso, a complexidade de tempo total é O(n^2 + m^2) devido à ordenação.
+
+
+- Complexidade de Espaço:
+
+    - A complexidade de espaço é O(n + m) devido ao uso da lista dinâmica LDE e dos vetores de entrada.
